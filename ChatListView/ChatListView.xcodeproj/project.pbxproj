@@ -11,8 +11,37 @@
 		3404C1F81C084BB8006F0DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C1F71C084BB8006F0DF7 /* AppDelegate.m */; };
 		3404C1FB1C084BB8006F0DF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C1FA1C084BB8006F0DF7 /* ViewController.m */; };
 		3404C1FE1C084BB8006F0DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3404C1FC1C084BB8006F0DF7 /* Main.storyboard */; };
-		3404C2001C084BB8006F0DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3404C1FF1C084BB8006F0DF7 /* Assets.xcassets */; };
 		3404C2031C084BB8006F0DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3404C2011C084BB8006F0DF7 /* LaunchScreen.storyboard */; };
+		3404C20B1C084C59006F0DF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3404C20A1C084C59006F0DF7 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		3404C20E1C084C94006F0DF7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C20D1C084C94006F0DF7 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3404C2101C084E3C006F0DF7 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3404C20F1C084E3C006F0DF7 /* friends.plist */; settings = {ASSET_TAGS = (); }; };
+		3404C2141C084F04006F0DF7 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C2131C084F04006F0DF7 /* Friend.m */; settings = {ASSET_TAGS = (); }; };
+		3404C2171C084F12006F0DF7 /* FriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C2161C084F12006F0DF7 /* FriendGroup.m */; settings = {ASSET_TAGS = (); }; };
+		3404C21A1C085253006F0DF7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C2191C085253006F0DF7 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		3404C21F1C085516006F0DF7 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404C21E1C085516006F0DF7 /* HeadView.m */; settings = {ASSET_TAGS = (); }; };
+		342908A81C0C1C6B00FD0ECD /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908A71C0C1C6B00FD0ECD /* ChatViewController.m */; settings = {ASSET_TAGS = (); }; };
+		342908AA1C0C1D7900FD0ECD /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 342908A91C0C1D7900FD0ECD /* messages.plist */; settings = {ASSET_TAGS = (); }; };
+		342908AD1C0C1E6F00FD0ECD /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908AC1C0C1E6F00FD0ECD /* MessageModel.m */; settings = {ASSET_TAGS = (); }; };
+		342908B01C0C1EF600FD0ECD /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908AF1C0C1EF600FD0ECD /* CellModel.m */; settings = {ASSET_TAGS = (); }; };
+		342908B31C0C20C200FD0ECD /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908B21C0C20C200FD0ECD /* NSString+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		342908B61C0C21E300FD0ECD /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908B51C0C21E300FD0ECD /* MessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		342908B91C0C224600FD0ECD /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908B81C0C224600FD0ECD /* UIImage+ResizeImage.m */; settings = {ASSET_TAGS = (); }; };
+		342908D41C0C250400FD0ECD /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908BC1C0C250400FD0ECD /* Emoji.m */; settings = {ASSET_TAGS = (); }; };
+		342908D51C0C250400FD0ECD /* EmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908BE1C0C250400FD0ECD /* EmojiCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		342908D61C0C250400FD0ECD /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908C01C0C250400FD0ECD /* EmojiEmoticons.m */; settings = {ASSET_TAGS = (); }; };
+		342908D71C0C250400FD0ECD /* EmojiInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908C21C0C250400FD0ECD /* EmojiInputView.m */; settings = {ASSET_TAGS = (); }; };
+		342908D81C0C250400FD0ECD /* EmojiMapSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908C41C0C250400FD0ECD /* EmojiMapSymbols.m */; settings = {ASSET_TAGS = (); }; };
+		342908D91C0C250400FD0ECD /* EmojiPictographs.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908C61C0C250400FD0ECD /* EmojiPictographs.m */; settings = {ASSET_TAGS = (); }; };
+		342908DA1C0C250400FD0ECD /* EmojiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908C81C0C250400FD0ECD /* EmojiTransport.m */; settings = {ASSET_TAGS = (); }; };
+		342908DB1C0C250400FD0ECD /* EmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342908CA1C0C250400FD0ECD /* EmojiView.m */; settings = {ASSET_TAGS = (); }; };
+		342908DC1C0C250400FD0ECD /* btn_expression@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908CC1C0C250400FD0ECD /* btn_expression@2x.png */; settings = {ASSET_TAGS = (); }; };
+		342908DD1C0C250400FD0ECD /* btn_expression@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908CD1C0C250400FD0ECD /* btn_expression@3x.png */; settings = {ASSET_TAGS = (); }; };
+		342908DE1C0C250400FD0ECD /* btn_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908CE1C0C250400FD0ECD /* btn_keyboard@2x.png */; settings = {ASSET_TAGS = (); }; };
+		342908DF1C0C250400FD0ECD /* btn_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908CF1C0C250400FD0ECD /* btn_keyboard@3x.png */; settings = {ASSET_TAGS = (); }; };
+		342908E01C0C250400FD0ECD /* keyboard_btn_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908D01C0C250400FD0ECD /* keyboard_btn_delete@2x.png */; settings = {ASSET_TAGS = (); }; };
+		342908E11C0C250400FD0ECD /* keyboard_btn_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908D11C0C250400FD0ECD /* keyboard_btn_delete@3x.png */; settings = {ASSET_TAGS = (); }; };
+		342908E21C0C250400FD0ECD /* keyboard_preview_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908D21C0C250400FD0ECD /* keyboard_preview_bg@2x.png */; settings = {ASSET_TAGS = (); }; };
+		342908E31C0C250400FD0ECD /* keyboard_preview_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342908D31C0C250400FD0ECD /* keyboard_preview_bg@3x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +52,58 @@
 		3404C1F91C084BB8006F0DF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3404C1FA1C084BB8006F0DF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3404C1FD1C084BB8006F0DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3404C1FF1C084BB8006F0DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3404C2021C084BB8006F0DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3404C2041C084BB8006F0DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3404C20A1C084C59006F0DF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3404C20C1C084C94006F0DF7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3404C20D1C084C94006F0DF7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3404C20F1C084E3C006F0DF7 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		3404C2121C084F04006F0DF7 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		3404C2131C084F04006F0DF7 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		3404C2151C084F12006F0DF7 /* FriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGroup.h; sourceTree = "<group>"; };
+		3404C2161C084F12006F0DF7 /* FriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGroup.m; sourceTree = "<group>"; };
+		3404C2181C085253006F0DF7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3404C2191C085253006F0DF7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3404C21D1C085516006F0DF7 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		3404C21E1C085516006F0DF7 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		342908A61C0C1C6B00FD0ECD /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		342908A71C0C1C6B00FD0ECD /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		342908A91C0C1D7900FD0ECD /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		342908AB1C0C1E6F00FD0ECD /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		342908AC1C0C1E6F00FD0ECD /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		342908AE1C0C1EF600FD0ECD /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		342908AF1C0C1EF600FD0ECD /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		342908B11C0C20C200FD0ECD /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		342908B21C0C20C200FD0ECD /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		342908B41C0C21E300FD0ECD /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		342908B51C0C21E300FD0ECD /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		342908B71C0C224600FD0ECD /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
+		342908B81C0C224600FD0ECD /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
+		342908BB1C0C250400FD0ECD /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
+		342908BC1C0C250400FD0ECD /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoji.m; sourceTree = "<group>"; };
+		342908BD1C0C250400FD0ECD /* EmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		342908BE1C0C250400FD0ECD /* EmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		342908BF1C0C250400FD0ECD /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiEmoticons.h; sourceTree = "<group>"; };
+		342908C01C0C250400FD0ECD /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiEmoticons.m; sourceTree = "<group>"; };
+		342908C11C0C250400FD0ECD /* EmojiInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiInputView.h; sourceTree = "<group>"; };
+		342908C21C0C250400FD0ECD /* EmojiInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiInputView.m; sourceTree = "<group>"; };
+		342908C31C0C250400FD0ECD /* EmojiMapSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiMapSymbols.h; sourceTree = "<group>"; };
+		342908C41C0C250400FD0ECD /* EmojiMapSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiMapSymbols.m; sourceTree = "<group>"; };
+		342908C51C0C250400FD0ECD /* EmojiPictographs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiPictographs.h; sourceTree = "<group>"; };
+		342908C61C0C250400FD0ECD /* EmojiPictographs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiPictographs.m; sourceTree = "<group>"; };
+		342908C71C0C250400FD0ECD /* EmojiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTransport.h; sourceTree = "<group>"; };
+		342908C81C0C250400FD0ECD /* EmojiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiTransport.m; sourceTree = "<group>"; };
+		342908C91C0C250400FD0ECD /* EmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiView.h; sourceTree = "<group>"; };
+		342908CA1C0C250400FD0ECD /* EmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiView.m; sourceTree = "<group>"; };
+		342908CC1C0C250400FD0ECD /* btn_expression@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_expression@2x.png"; sourceTree = "<group>"; };
+		342908CD1C0C250400FD0ECD /* btn_expression@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_expression@3x.png"; sourceTree = "<group>"; };
+		342908CE1C0C250400FD0ECD /* btn_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_keyboard@2x.png"; sourceTree = "<group>"; };
+		342908CF1C0C250400FD0ECD /* btn_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_keyboard@3x.png"; sourceTree = "<group>"; };
+		342908D01C0C250400FD0ECD /* keyboard_btn_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_btn_delete@2x.png"; sourceTree = "<group>"; };
+		342908D11C0C250400FD0ECD /* keyboard_btn_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_btn_delete@3x.png"; sourceTree = "<group>"; };
+		342908D21C0C250400FD0ECD /* keyboard_preview_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_preview_bg@2x.png"; sourceTree = "<group>"; };
+		342908D31C0C250400FD0ECD /* keyboard_preview_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_preview_bg@3x.png"; sourceTree = "<group>"; };
+		342908E41C0C265800FD0ECD /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +136,22 @@
 		3404C1F21C084BB8006F0DF7 /* ChatListView */ = {
 			isa = PBXGroup;
 			children = (
+				342908BA1C0C250400FD0ECD /* EmojiKeyboard */,
+				3404C21C1C08538E006F0DF7 /* Commom */,
+				3404C21B1C085385006F0DF7 /* View */,
+				3404C2111C084EF1006F0DF7 /* Model */,
 				3404C1F61C084BB8006F0DF7 /* AppDelegate.h */,
 				3404C1F71C084BB8006F0DF7 /* AppDelegate.m */,
 				3404C1F91C084BB8006F0DF7 /* ViewController.h */,
 				3404C1FA1C084BB8006F0DF7 /* ViewController.m */,
+				3404C20C1C084C94006F0DF7 /* BaseViewController.h */,
+				3404C20D1C084C94006F0DF7 /* BaseViewController.m */,
+				342908A61C0C1C6B00FD0ECD /* ChatViewController.h */,
+				342908A71C0C1C6B00FD0ECD /* ChatViewController.m */,
 				3404C1FC1C084BB8006F0DF7 /* Main.storyboard */,
-				3404C1FF1C084BB8006F0DF7 /* Assets.xcassets */,
+				3404C20F1C084E3C006F0DF7 /* friends.plist */,
+				342908A91C0C1D7900FD0ECD /* messages.plist */,
+				3404C20A1C084C59006F0DF7 /* Images.xcassets */,
 				3404C2011C084BB8006F0DF7 /* LaunchScreen.storyboard */,
 				3404C2041C084BB8006F0DF7 /* Info.plist */,
 				3404C1F31C084BB8006F0DF7 /* Supporting Files */,
@@ -77,6 +165,85 @@
 				3404C1F41C084BB8006F0DF7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3404C2111C084EF1006F0DF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3404C2121C084F04006F0DF7 /* Friend.h */,
+				3404C2131C084F04006F0DF7 /* Friend.m */,
+				3404C2151C084F12006F0DF7 /* FriendGroup.h */,
+				3404C2161C084F12006F0DF7 /* FriendGroup.m */,
+				342908AB1C0C1E6F00FD0ECD /* MessageModel.h */,
+				342908AC1C0C1E6F00FD0ECD /* MessageModel.m */,
+				342908AE1C0C1EF600FD0ECD /* CellModel.h */,
+				342908AF1C0C1EF600FD0ECD /* CellModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3404C21B1C085385006F0DF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3404C21D1C085516006F0DF7 /* HeadView.h */,
+				3404C21E1C085516006F0DF7 /* HeadView.m */,
+				342908B41C0C21E300FD0ECD /* MessageCell.h */,
+				342908B51C0C21E300FD0ECD /* MessageCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3404C21C1C08538E006F0DF7 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				342908E41C0C265800FD0ECD /* Header.h */,
+				342908B71C0C224600FD0ECD /* UIImage+ResizeImage.h */,
+				342908B81C0C224600FD0ECD /* UIImage+ResizeImage.m */,
+				342908B11C0C20C200FD0ECD /* NSString+Extension.h */,
+				342908B21C0C20C200FD0ECD /* NSString+Extension.m */,
+				3404C2181C085253006F0DF7 /* UIView+Extension.h */,
+				3404C2191C085253006F0DF7 /* UIView+Extension.m */,
+			);
+			name = Commom;
+			sourceTree = "<group>";
+		};
+		342908BA1C0C250400FD0ECD /* EmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				342908BB1C0C250400FD0ECD /* Emoji.h */,
+				342908BC1C0C250400FD0ECD /* Emoji.m */,
+				342908BD1C0C250400FD0ECD /* EmojiCollectionViewCell.h */,
+				342908BE1C0C250400FD0ECD /* EmojiCollectionViewCell.m */,
+				342908BF1C0C250400FD0ECD /* EmojiEmoticons.h */,
+				342908C01C0C250400FD0ECD /* EmojiEmoticons.m */,
+				342908C11C0C250400FD0ECD /* EmojiInputView.h */,
+				342908C21C0C250400FD0ECD /* EmojiInputView.m */,
+				342908C31C0C250400FD0ECD /* EmojiMapSymbols.h */,
+				342908C41C0C250400FD0ECD /* EmojiMapSymbols.m */,
+				342908C51C0C250400FD0ECD /* EmojiPictographs.h */,
+				342908C61C0C250400FD0ECD /* EmojiPictographs.m */,
+				342908C71C0C250400FD0ECD /* EmojiTransport.h */,
+				342908C81C0C250400FD0ECD /* EmojiTransport.m */,
+				342908C91C0C250400FD0ECD /* EmojiView.h */,
+				342908CA1C0C250400FD0ECD /* EmojiView.m */,
+				342908CB1C0C250400FD0ECD /* resource */,
+			);
+			path = EmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		342908CB1C0C250400FD0ECD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				342908CC1C0C250400FD0ECD /* btn_expression@2x.png */,
+				342908CD1C0C250400FD0ECD /* btn_expression@3x.png */,
+				342908CE1C0C250400FD0ECD /* btn_keyboard@2x.png */,
+				342908CF1C0C250400FD0ECD /* btn_keyboard@3x.png */,
+				342908D01C0C250400FD0ECD /* keyboard_btn_delete@2x.png */,
+				342908D11C0C250400FD0ECD /* keyboard_btn_delete@3x.png */,
+				342908D21C0C250400FD0ECD /* keyboard_preview_bg@2x.png */,
+				342908D31C0C250400FD0ECD /* keyboard_preview_bg@3x.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +303,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3404C20B1C084C59006F0DF7 /* Images.xcassets in Resources */,
+				342908E01C0C250400FD0ECD /* keyboard_btn_delete@2x.png in Resources */,
 				3404C2031C084BB8006F0DF7 /* LaunchScreen.storyboard in Resources */,
-				3404C2001C084BB8006F0DF7 /* Assets.xcassets in Resources */,
+				342908AA1C0C1D7900FD0ECD /* messages.plist in Resources */,
+				3404C2101C084E3C006F0DF7 /* friends.plist in Resources */,
+				342908DE1C0C250400FD0ECD /* btn_keyboard@2x.png in Resources */,
+				342908DD1C0C250400FD0ECD /* btn_expression@3x.png in Resources */,
+				342908DF1C0C250400FD0ECD /* btn_keyboard@3x.png in Resources */,
 				3404C1FE1C084BB8006F0DF7 /* Main.storyboard in Resources */,
+				342908E21C0C250400FD0ECD /* keyboard_preview_bg@2x.png in Resources */,
+				342908E11C0C250400FD0ECD /* keyboard_btn_delete@3x.png in Resources */,
+				342908E31C0C250400FD0ECD /* keyboard_preview_bg@3x.png in Resources */,
+				342908DC1C0C250400FD0ECD /* btn_expression@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +327,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				3404C1FB1C084BB8006F0DF7 /* ViewController.m in Sources */,
+				342908B91C0C224600FD0ECD /* UIImage+ResizeImage.m in Sources */,
+				342908B01C0C1EF600FD0ECD /* CellModel.m in Sources */,
+				342908DA1C0C250400FD0ECD /* EmojiTransport.m in Sources */,
+				342908D61C0C250400FD0ECD /* EmojiEmoticons.m in Sources */,
+				342908B61C0C21E300FD0ECD /* MessageCell.m in Sources */,
+				3404C2171C084F12006F0DF7 /* FriendGroup.m in Sources */,
+				342908DB1C0C250400FD0ECD /* EmojiView.m in Sources */,
+				3404C21F1C085516006F0DF7 /* HeadView.m in Sources */,
+				342908D41C0C250400FD0ECD /* Emoji.m in Sources */,
+				3404C2141C084F04006F0DF7 /* Friend.m in Sources */,
+				3404C21A1C085253006F0DF7 /* UIView+Extension.m in Sources */,
+				342908D81C0C250400FD0ECD /* EmojiMapSymbols.m in Sources */,
+				3404C20E1C084C94006F0DF7 /* BaseViewController.m in Sources */,
+				342908B31C0C20C200FD0ECD /* NSString+Extension.m in Sources */,
+				342908D91C0C250400FD0ECD /* EmojiPictographs.m in Sources */,
+				342908D71C0C250400FD0ECD /* EmojiInputView.m in Sources */,
 				3404C1F81C084BB8006F0DF7 /* AppDelegate.m in Sources */,
+				342908AD1C0C1E6F00FD0ECD /* MessageModel.m in Sources */,
 				3404C1F51C084BB8006F0DF7 /* main.m in Sources */,
+				342908A81C0C1C6B00FD0ECD /* ChatViewController.m in Sources */,
+				342908D51C0C250400FD0ECD /* EmojiCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +494,7 @@
 				3404C2091C084BB8006F0DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
